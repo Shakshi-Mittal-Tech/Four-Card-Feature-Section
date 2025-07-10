@@ -34,16 +34,18 @@
   --grey-400: hsl(212, 6%, 44%);
   --white: hsl(0, 0%, 100%);
 }
-*,
+/* *,
 *::after,
 *::before {
   box-sizing: border-box;
-}
+} */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--white);
-  margin: 0;
+  margin: 4rem 0 ;
   padding: 0;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -52,7 +54,7 @@ body {
   font-size: 2.125rem;
   font-weight: 200;
   color: var(--grey-400);
-  margin: 2rem 0 0 0;
+  margin: 4rem 0 0 0;
   letter-spacing: 0;
   line-height: 1.1;
 }
@@ -74,6 +76,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 2rem;
 
 }
 
