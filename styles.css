@@ -72,7 +72,7 @@ body {
   font-weight: 400;
   color: var(--grey-500);
   margin-bottom: 2rem;
-  max-width: 480px;
+  max-width: 30rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -85,7 +85,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 2rem 2rem;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -93,15 +93,15 @@ body {
 .card {
   background-color: var(--white);
   border-radius: 0.25rem;
-  box-shadow: 0 16px 32px rgba(15, 117, 218, 0.152);
+  box-shadow: 0 1rem 2rem rgba(15, 117, 218, 0.152);
   padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
   text-align: left;
-  min-width: 360px;
-  min-height: 200px;
+  min-width: 22.5rem;
+  min-height: 12.5rem;
 }
 
 /* Supervisor: left, vertically centered, spans both rows */
@@ -116,21 +116,21 @@ body {
 .card:nth-child(2) {
   grid-column: 2;
   grid-row: 1;
-  border-top: 4px solid var(--red);
+  border-top: .25rem solid var(--red);
 }
 
 /* Karma: center bottom */
 .card:nth-child(3) {
   grid-column: 2;
   grid-row: 2;
-  border-top: 4px solid var(--orange);
+  border-top: .25rem solid var(--orange);
 }
 
 /* Calculator: right, vertically centered, spans both rows */
 .card:nth-child(4) {
   grid-column: 3;
   grid-row: 1 / span 2;
-  border-top: 4px solid var(--blue);
+  border-top: .25rem solid var(--blue);
   align-self: center;
 }
 .card-icon {
@@ -152,7 +152,7 @@ body {
   margin-top: 0.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   body{
     padding: 0 1rem;
   }
@@ -168,7 +168,7 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
     body {
         padding: 0 1rem;
         margin-bottom: 2rem;
